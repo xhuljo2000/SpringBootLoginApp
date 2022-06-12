@@ -1,4 +1,4 @@
-package xhul10.examples;
+package xhul10.examples.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package xhul10.examples;
+package xhul10.examples.controller;
 
 import java.util.List;
 
@@ -8,6 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import xhul10.examples.entity.User;
+import xhul10.examples.repository.UserRepository;
 
 @Controller
 public class AppController {
